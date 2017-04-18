@@ -3,8 +3,8 @@ import csv
 from unidecode import unidecode
 from selenium import webdriver
 
-publisher = "5239763950173938"
-publisherMax ="5888747201286229"
+publisher = ""
+publisherMax =""
 
 client = IndeedClient(publisher)
 params = {
