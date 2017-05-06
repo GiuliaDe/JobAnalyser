@@ -20,7 +20,7 @@ params = {
 	,'co': 'it'	
 	,"fromage":7
 	,"latlong" : 1
-#	,"chnl" : "prjct"
+	,"chnl" : "prjct"
 }
 
 storage = [] 
