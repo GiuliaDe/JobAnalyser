@@ -1,9 +1,6 @@
 import csv
-import htmlprocessor as hp
 
-
-
-
+from Data_manager import htmlprocessor as hp
 
 fw = open('testi_lavori.csv', 'w')
 file_writer = csv.writer(fw, delimiter=';', quotechar='"', quoting=csv.QUOTE_ALL)

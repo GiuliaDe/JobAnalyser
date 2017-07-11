@@ -1,10 +1,10 @@
-import htmlprocessor as hp
+import Data_manager.htmlprocessor as hp
 from Data_manager import dbdatahandler as ddh
 
 tot_iterazioni = 1000
 numjobs = 25
 
-db, cursor = ddh.openconnection()
+db, cursor = ddh.open_connection()
 
 for i in range(0, tot_iterazioni):
 
